@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Rock Paper Scissors</string>
+    <string name="cc_app_name">CodeClan Rock Paper Scissors</string>
+    <string name="question">Pick a button and test your luck!</string>
+    <string name="rock">Rock.</string>
+    <string name="paper">Paper.</string>
+    <string name="scissors">Scissors.</string>
+</resources>
