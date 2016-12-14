@@ -58,37 +58,34 @@ public class RockPaperScissors {
                 .equals("scissors") && computerChoice.equals("rock") || (playerChoice
                 .equals("rock") && computerChoice.equals("lizard") || (playerChoice
                 .equals("lizard") && computerChoice.equals("rock"))))) {
-            return "Player chose " + playerChoice + ", computer chose " + computerChoice + ". " +
+            return "You chose " + playerChoice + ", computer chose " + computerChoice + ". " +
                     "Rock wins!";
-        }
-        else if (playerChoice.equals("paper") && computerChoice.equals("rock") || (playerChoice
+        } else if (playerChoice.equals("paper") && computerChoice.equals("rock") || (playerChoice
                 .equals("rock") && computerChoice.equals("paper") || (playerChoice.equals
                 ("paper") && computerChoice.equals("spock") || (playerChoice.equals("spock") &&
                 computerChoice.equals("paper"))))) {
-            return "Player chose " + playerChoice + ", computer chose " + computerChoice + ". " +
+            return "You chose " + playerChoice + ", computer chose " + computerChoice + ". " +
                     "Paper wins!";
-        }
-        else if (playerChoice.equals("paper") && computerChoice.equals("scissors")
+        } else if (playerChoice.equals("paper") && computerChoice.equals("scissors")
                 || (playerChoice.equals("scissors") && computerChoice.equals("paper") ||
                 (playerChoice.equals("scissors") && computerChoice.equals("lizard") ||
                         (playerChoice.equals("lizard") && computerChoice.equals("scissors"))))) {
-            return "Player chose " + playerChoice + ", computer chose " + computerChoice + ". " +
+            return "You chose " + playerChoice + ", computer chose " + computerChoice + ". " +
                     "Scissors wins!";
-        }
-        else if (playerChoice.equals("spock") && computerChoice.equals("rock")
-                    || (playerChoice.equals("rock") && computerChoice.equals("spock") ||
-                    (playerChoice.equals("spock") && computerChoice.equals("scissors") ||
-                            (playerChoice.equals("scissors") && computerChoice.equals("spock"))))) {
-            return "Player chose " + playerChoice + ", computer chose " + computerChoice + ". Spock wins!";
-        }
-        else if (playerChoice.equals("lizard") && computerChoice.equals("paper")
+        } else if (playerChoice.equals("spock") && computerChoice.equals("rock")
+                || (playerChoice.equals("rock") && computerChoice.equals("spock") ||
+                (playerChoice.equals("spock") && computerChoice.equals("scissors") ||
+                        (playerChoice.equals("scissors") && computerChoice.equals("spock"))))) {
+            return "You chose " + playerChoice + ", computer chose " + computerChoice + ". " +
+                    "Spock wins!";
+        } else if (playerChoice.equals("lizard") && computerChoice.equals("paper")
                 || (playerChoice.equals("paper") && computerChoice.equals("lizard") ||
                 (playerChoice.equals("lizard") && computerChoice.equals("spock") ||
                         (playerChoice.equals("spock") && computerChoice.equals("lizard"))))) {
-            return "Player chose " + playerChoice + ", computer chose " + computerChoice + ". Lizard wins!";
+            return "You chose " + playerChoice + ", computer chose " + computerChoice + ". " +
+                    "Lizard wins!";
         }
-
-        return "Player chose " + playerChoice + ", computer chose " + computerChoice + ". Draw.";
+        return "You chose " + playerChoice + ", computer chose " + computerChoice + ". Draw.";
     }
 
 }
