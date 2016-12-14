@@ -15,7 +15,7 @@
     <Button
         android:id="@+id/rock_button"
         android:text="@string/rock"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="5dp"
         android:layout_marginLeft="25dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -23,7 +23,7 @@
     <Button
         android:id="@+id/paper_button"
         android:text="@string/paper"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="5dp"
         android:layout_marginLeft="25dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -31,7 +31,23 @@
     <Button
         android:id="@+id/scissors_button"
         android:text="@string/scissors"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/spock_button"
+        android:text="@string/spock"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/lizard_button"
+        android:text="@string/lizard"
+        android:layout_marginTop="5dp"
         android:layout_marginLeft="25dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
